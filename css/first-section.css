@@ -1,0 +1,32 @@
+.first-section {
+    width: 100%;
+    padding-block-start: 100px;
+    padding-inline-end: 100px;
+    padding-block-start: 80px;
+    padding-block-end: 40px;
+}
+
+.first-section__content {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section__text h3 {
+    font-size: 72px;
+    line-height: 84px;
+    margin-block-end: 60px;
+}
+
+.first-section__text p {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0;
+}
+
+.first-section__content img {
+    width: 400px;
+}

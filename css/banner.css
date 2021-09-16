@@ -1,0 +1,26 @@
+.banner {
+    color: white;
+    background-image: url(../img/Pozole.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: calc(150vh - 70px);
+}
+
+.banner__content {
+    margin-inline-end: 80px;
+    margin-inline-start: 80px;
+    padding-block-start: 103px;
+}
+
+.banner h3 {
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.banner p {
+    font-size: 24px;
+    max-width: 739px;
+    line-height: 28px;
+    margin: 0;
+    margin-block-end: 75px;
+}

@@ -1,0 +1,16 @@
+.button {
+    border: 3px solid #EB5A2C;
+    background-color: #EB5A2C;
+    color: white;
+    padding: 22px 36px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-inline-end: 60px;
+}
+
+.button.is-secondary {
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+}
