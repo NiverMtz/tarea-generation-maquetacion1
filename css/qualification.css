@@ -1,0 +1,43 @@
+.qualification {
+    padding-inline-end: 178px;
+    padding-inline-start: 206px;
+}
+
+.qualification__content {
+    display: flex;
+    margin-block-end: 93px;
+}
+
+.qualification__img {
+    width: 440px;
+    height: 398px;
+}
+
+.qualification__text {
+    margin-inline-start: 74px;
+}
+
+.qualification__text h3 {
+    max-width: 400px;
+    font-size: 72px;
+    line-height: 84px;
+    margin-block-end: 37px;
+}
+
+.qualification__text p {
+    width: 542px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-block-end: 138px;
+}
+
+.stars img {
+    width: 50px;
+}
