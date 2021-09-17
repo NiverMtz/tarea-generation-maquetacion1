@@ -7,6 +7,7 @@
 @import url(./cards.css);
 @import url(./first-section.css);
 @import url(./galery.css);
+@import url(./form.css);
 
 html {
     box-sizing: border-box;
