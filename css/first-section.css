@@ -1,23 +1,23 @@
 .first-section {
     width: 100%;
-    padding-block-start: 100px;
+    padding-inline-start: 100px;
     padding-inline-end: 100px;
-    padding-block-start: 80px;
-    padding-block-end: 40px;
+    margin-block-start: 200px;
+    margin-block-end: 135px;
 }
 
 .first-section__content {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-block-end: 70px;
 }
 
 .first-section__text h3 {
     font-size: 72px;
-    line-height: 84px;
-    margin-block-end: 60px;
+    line-height: 42px;
+    margin-block-end: 56px;
 }
 
 .first-section__text p {
@@ -29,4 +29,20 @@
 
 .first-section__content img {
     width: 400px;
+}
+
+.first-section__message {
+    max-width: 1030px;
+    height: 195px;
+    border: 8px solid #EB5A2C;
+    padding-inline-end: 280px;
+    padding-inline-start: 40px;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+}
+
+.first-section__message p {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 900;
 }

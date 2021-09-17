@@ -1,0 +1,40 @@
+.galery {
+    margin-inline: 50px;
+    margin-block-end: 40px;
+}
+
+.galery__content {
+    display: grid;
+    grid-template-columns: 403px 368px 449px;
+    grid-template-rows: 273px 226px 252px;
+    grid-column-gap: 14px;
+    grid-row-gap: 16px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#photo1 {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+#photo2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#photo3 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
